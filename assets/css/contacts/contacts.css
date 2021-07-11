@@ -29,6 +29,23 @@ h2 {
 	padding: 0.75em 0;
 }
 
+label {
+	display: block;
+}
+
+.textForm {
+	min-width: 50px;
+	padding: 13px;
+	border: none;
+	background-color: #ebebeb;
+	font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+.textForm:focus {
+	outline: none;
+}
+
 .textblock {
 	font-size: 60px;
 	color: #fff;
@@ -37,6 +54,18 @@ h2 {
 .parallax h1 {
 	width: 800px;
 	height: 100px;
+}
+
+.button {
+	font: 400 14px Arial;
+	padding: 16px 20px;
+	border: 1px solid #3c3d40;
+	background-color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	max-width: 250px;
+	width: 100%;
+	margin: 22px 0px;
 }
 
 #gradient {
@@ -53,4 +82,14 @@ h2 {
 #locations {
 	font-family: sans-serif;
 	font-size: 14px;
+}
+
+.line {
+	position: relative;
+	top: 100px;
+}
+
+.line > div {
+	width: 50px;
+	border: 1px solid #fff;
 }
