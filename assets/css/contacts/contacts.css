@@ -1,0 +1,142 @@
+body {
+	margin: 0%;
+	font-family: "Cordo", serif;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	overflow: hidden;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: -100;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+h1 {
+	line-height: 1.5 !important;
+}
+
+h2 {
+	font-size: 32px;
+	padding: 0.75em 0;
+}
+
+label {
+	display: block;
+}
+
+.textForm {
+	min-width: 50px;
+	padding: 13px;
+	border: none;
+	background-color: #ebebeb;
+	font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+.textForm:focus {
+	outline: none;
+}
+
+.textblock {
+	font-size: 60px;
+	color: #fff;
+}
+
+.parallax h1 {
+	width: 800px;
+	height: 100px;
+}
+
+.button {
+	font: 400 14px Arial;
+	padding: 16px 20px;
+	border: 1px solid #3c3d40;
+	background-color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	max-width: 250px;
+	width: 100%;
+	margin: 22px 0px;
+}
+
+#gradient {
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	height: 50px;
+	min-height: 50px;
+	width: 100%;
+	position: static;
+	padding: 0px;
+}
+
+#locations {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.line {
+	position: relative;
+	top: 100px;
+}
+
+.line > div {
+	width: 50px;
+	border: 1px solid #fff;
+}
+
+::selection {
+	background-color: #5c7c91;
+	color: #ffffff;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	padding: 0px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-container {
+	padding: 0px 50px;
+}
+
+#navbarSupportedContent {
+	position: absolute;
+	right: 0;
+	padding-right: 50px;
+}
+
+#myNavBar {
+	background-color: #212326;
+}
+
+.nav-link {
+	color: #fff !important;
+	font-family:sans-serif;
+	font-weight: 500;
+}
+
+.nav-item:hover{
+	border-bottom:1px !important;
+	border-color:#fff !important;
+}
+
+footer{
+	background-color: #212326;
+	color:#fff;
+	font-family: sans-serif;
+}
